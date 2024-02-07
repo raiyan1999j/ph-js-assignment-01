@@ -2,8 +2,7 @@ function checkName(name){
     if(typeof(name) === 'number' || typeof(name) === 'object'||typeof(name) === 'undefined'){
         return 'Invalid'
     }else{
-        const container = ['a','y','i','e','o','u','w'];
-    const conLen = container.length;
+    const container = ['a','y','i','e','o','u','w'];
     const value = name.toLowerCase();
     const len = value.length;
     const testWord = value[len - 1];
@@ -21,4 +20,4 @@ function checkName(name){
 
 
 
-console.log(checkName(['17']));
+console.log(checkName('raiyana'));
